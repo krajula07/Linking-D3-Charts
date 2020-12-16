@@ -1,0 +1,45 @@
+#wrapper {
+  margin:auto;
+  width:1440px;
+}
+input {
+  width:50px;
+}
+svg {
+  border:1px solid gray;
+  border-radius:10px;
+  height:600px;
+  width:600px;
+  margin:5px;
+}
+#linechart {
+  width:800px;
+}
+
+html {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.countrymap {
+  stroke: black;
+}
+
+.x-axis line, .x-axis path { stroke: #fff; }
+.tooltip {
+        position: absolute;
+        margin: 0;
+        vertical-align: middle;
+        line-height: 1.6em;
+        padding: 6px;
+        font-size: 13px;
+        background: white;
+        border: thin solid gray;
+        white-space: pre-wrap;
+        border-radius: 3px;
+        pointer-events: none;
+
+      }
+
+h2, h3 {
+  text-align:center;
+}
